@@ -464,7 +464,7 @@ a:where(:not(.wp-element-button)) {
   width: 120px;
   margin: 0 70px;
   flex: none;
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
   max-width: none !important;
 }
 
@@ -531,7 +531,7 @@ a:where(:not(.wp-element-button)) {
     width: 750px !important;
     padding: 50px !important;
     margin-top: 10px !important;
-    background: #1e1e1e !important;
+    background: white !important;
     border: 1px solid #333333 !important;
     transition: none !important;
     transition: opacity 0.4s ease !important;
@@ -939,7 +939,7 @@ body {
 }
 
 .tools-list img {
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
 }
 
 .tool-box:hover img {

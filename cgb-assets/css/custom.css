@@ -84,3 +84,66 @@ h4{
     padding-top: 60px;
     padding-bottom: 90px;
 }
+
+.counter-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.counter-box {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.counter-text {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.elementor-43 .elementor-element.elementor-element-8dfbb40 .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu > li > a{
+    color: grey;
+}
+
+.elementor-43 .elementor-element.elementor-element-2e93dbb .ue_menu ul li a{
+    color: grey; 
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu div div ul li a{
+    color: grey;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger > div{
+    background-color: black !important;
+}
+
+
+.elementor-43 .elementor-element.elementor-element-fe6e35d:not(.elementor-motion-effects-element-type-background){
+    background-color: white !important;
+}
+
+.elementor-43 .elementor-element.elementor-element-fe6e35d {
+    border-color: gray !important;
+}
+
+.text-black{
+    color: black;
+}
+
+.slide_right1:hover {
+    box-shadow: inset 400px 0 0 0 #4E2979;
+    color: white;
+}
+
+.accordion-body{
+    border: 1px solid grey;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+@media (max-width: 767px) {
+    .elementor-43 .elementor-element.elementor-element-b29c2ff img {
+        width: 120px;
+    }
+}
