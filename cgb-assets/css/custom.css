@@ -147,3 +147,77 @@ h4{
         width: 120px;
     }
 }
+
+/* breadcrumb */
+
+.wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  
+  .breadcrumb {
+    height: 400px;
+  }
+  
+  .breadcrumb p{
+    color: #fff;
+  }
+  
+  .breadcrumb, .btn-wrap .btn, .cta-btn {
+    position: relative;
+  }
+  
+  .breadcrumb video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px !important;
+  }
+  .breadcrumb_content {
+    padding: 6% 0;
+    position: absolute;
+    top: 0;
+    display: flex
+  ;
+    flex-direction: column;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .breadcrumb {
+        margin-top: 0;
+        position: relative;
+        height: 300px !important;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .breadcrumb video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 85% 100% !important;
+        border-radius: 10px !important;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .breadcrumb_content {
+        padding: 2% 4% !important;
+        background: linear-gradient(176deg, rgb(0 0 0 / 39%) 3%, rgb(0 0 0 / 89%) 100%) !important;
+        border-radius: 10px !important;
+    }
+  }
+  
+
+  .bg-light-co{
+    background-color: #EDF2F4 !important;
+  }
+  
+
+/* breacrum end    */
