@@ -57,6 +57,7 @@ h4 {
 }
 
 .accordion-flush .accordion-item .accordion-button {
+  white-space: normal;
   background: linear-gradient(to bottom, rgb(87 49 130), rgb(72 41 93));
   color: white;
   border-radius: 15px !important;
@@ -244,8 +245,89 @@ h4 {
 }
 
 .elementor-32922 .elementor-element.elementor-element-691e5ae::before,
-.elementor-10 .elementor-element.elementor-element-0bed87d::before {
+.elementor-10 .elementor-element.elementor-element-0bed87d::before,
+.elementor-10
+  .elementor-element.elementor-element-ecca675
+  > .elementor-background-overlay {
   display: none;
 }
 
+.font-size-h2 {
+  font-size: 20px !important;
+}
+
+.dark-purple {
+  color: #733895 !important;
+}
+
+.img-sec {
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+  max-width: 60px;
+  min-width: 60px;
+  max-height: 60px;
+  min-height: 60px;
+}
+
+.atag {
+  display: flex;
+  align-items: start;
+  text-decoration: none;
+}
+
+.elementor-43 .elementor-element.elementor-element-fe6e35d:not( .elementor-motion-effects-element-type-background ){
+  box-shadow: 0 0 10px 3px rgb(0 0 0 / 11%);
+}
+
+
+.industries-list li {
+  color: #bcc3cc; /* Default text color */
+  transition: color 0.3s ease-in-out; /* Smooth transition */
+  list-style: none;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.industries-list li:hover {
+  color: #733895; /* Change color on hover */
+}
+
+.list-style{
+  color: #333;
+  transition: color 0.3s ease-in-out;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+  .text-justify-sm {
+    text-align: justify;
+  }
+
+  .custom-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 30px; /* Space for the icon */
+    margin-bottom: 10px;
+}
+
+.custom-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 20px; /* Adjust size */
+    height: 20px;
+    background: url('../../wp-content/uploads/cgb-studios/icon/check.png') no-repeat center;
+    background-size: contain;
+}
+
+.accordion-button::after,.accordion-button:not(.collapsed)::after{
+  display: block !important;
+  background-image: url("/wp-content/uploads/cgb-studios/icon/down.gif") !important;
+}
 /* breacrum end    */
