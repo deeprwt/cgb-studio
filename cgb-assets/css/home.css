@@ -559,7 +559,7 @@ a:where(:not(.wp-element-button)) {
     width: 400px !important;
     padding: 50px !important;
     margin-top: 10px !important;
-    background: white !important;
+    background: #1e1e1e !important;
     border: 1px solid #333333 !important;
     transition: none !important;
     transition: opacity 0.4s ease !important;
@@ -701,6 +701,10 @@ a:where(:not(.wp-element-button)) {
     border-left-width: 0 !important;
   }
 
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i{
+    margin-top: 5px;
+  }
+
   .elementor-nav-menu--layout-horizontal .elementor-nav-menu a {
     white-space: nowrap;
     flex-grow: 0;
@@ -716,8 +720,8 @@ a:where(:not(.wp-element-button)) {
     pointer-events: auto; /* Allows hover events to pass through */
   }
   .sub-menu .menu-item-title {
-    color: white !important;
-    font-weight: normal !important;
+    color: black !important;
+    font-weight: 600 !important;
     font-size: 18px;
   }
   .sub-menu
@@ -747,10 +751,10 @@ a:where(:not(.wp-element-button)) {
   }
 
   #cont-box-icons {
-    stroke: white !important;
+    stroke: black !important;
   }
   .menu-item-link:hover .menu-item-svg-wrapper svg path {
-    fill: #3be496 !important;
+    fill: white !important;
     fill-opacity: 1 !important;
     /* 			    stroke: var(--e-global-color-text) !important;
 */
@@ -759,14 +763,14 @@ a:where(:not(.wp-element-button)) {
     .menu-item-svg-wrapper
     #custom-stroke-svg
     .custom-rect-svg-path {
-    stroke: #3be496 !important;
+    stroke: #733895 !important;
     fill: transparent !important;
   }
   .menu-item-link:hover .menu-item-arrow svg path {
     stroke: var(--e-global-color-text) !important;
   }
   .menu-item-link:hover #cont-box-icons {
-    stroke: #3be496 !important;
+    stroke: #733895 !important;
   }
   .menu-item-link:hover .menu-item-svg-wrapper svg rect,
   .menu-item-link:hover .menu-item-arrow svg path {
@@ -1128,3 +1132,5 @@ body {
     );
   }
 }
+
+
