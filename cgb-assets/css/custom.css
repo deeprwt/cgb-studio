@@ -282,7 +282,7 @@ h4 {
 
 
 .industries-list li {
-  color: #bcc3cc; /* Default text color */
+  color: #999b9f; /* Default text color */
   transition: color 0.3s ease-in-out; /* Smooth transition */
   list-style: none;
   font-size: 2em;
@@ -329,5 +329,12 @@ h4 {
 .accordion-button::after,.accordion-button:not(.collapsed)::after{
   display: block !important;
   background-image: url("/wp-content/uploads/cgb-studios/icon/down.gif") !important;
+}
+
+.sticky-p{
+  position: sticky;
+  top: 0px;
+  z-index: 10000000;
+  box-shadow: 0 0 10px 3px rgb(0 0 0 / 11%);
 }
 /* breacrum end    */
