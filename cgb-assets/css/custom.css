@@ -276,10 +276,12 @@ h4 {
   text-decoration: none;
 }
 
-.elementor-43 .elementor-element.elementor-element-fe6e35d:not( .elementor-motion-effects-element-type-background ){
+.elementor-43
+  .elementor-element.elementor-element-fe6e35d:not(
+    .elementor-motion-effects-element-type-background
+  ) {
   box-shadow: 0 0 10px 3px rgb(0 0 0 / 11%);
 }
-
 
 .industries-list li {
   color: #999b9f; /* Default text color */
@@ -293,48 +295,59 @@ h4 {
   color: #733895; /* Change color on hover */
 }
 
-.list-style{
+.list-style {
   color: #333;
   transition: color 0.3s ease-in-out;
   font-size: 16px;
   font-weight: 500;
 }
 
-  .text-justify-sm {
-    text-align: justify;
-  }
+.text-justify-sm {
+  text-align: justify;
+}
 
-  .custom-list {
-    list-style: none; /* Remove default bullets */
-    padding: 0;
+.custom-list {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
 }
 
 .custom-list li {
-    position: relative;
-    padding-left: 30px; /* Space for the icon */
-    margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px; /* Space for the icon */
+  margin-bottom: 10px;
 }
 
 .custom-list li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 3px;
-    width: 20px; /* Adjust size */
-    height: 20px;
-    background: url('../../wp-content/uploads/cgb-studios/icon/check.png') no-repeat center;
-    background-size: contain;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 20px; /* Adjust size */
+  height: 20px;
+  background: url("../../wp-content/uploads/cgb-studios/icon/check.png")
+    no-repeat center;
+  background-size: contain;
 }
 
-.accordion-button::after,.accordion-button:not(.collapsed)::after{
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
   display: block !important;
   background-image: url("/wp-content/uploads/cgb-studios/icon/down.gif") !important;
 }
 
-.sticky-p{
+.sticky-p {
   position: sticky;
   top: 0px;
   z-index: 10000000;
   box-shadow: 0 0 10px 3px rgb(0 0 0 / 11%);
 }
+
+.elementor-25
+  .elementor-element.elementor-element-fd3d49a
+  .elementor-nav-menu--dropdown
+  li:last-child
+  a {
+  color: white;
+}
+
 /* breacrum end    */
