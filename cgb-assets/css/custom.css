@@ -350,4 +350,8 @@ h4 {
   color: white;
 }
 
+#menu-item-32866:hover .sub-menu {
+  background: white !important;
+}
+
 /* breacrum end    */
