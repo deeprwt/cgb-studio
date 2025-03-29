@@ -260,6 +260,35 @@ h4 {
   color: #733895 !important;
 }
 
+.btn-dark-purple{
+  border: 2px solid #4E2979;
+    border-radius: 0px;
+    padding: 18px 20px !important;
+    display: inline-block;
+    font-family: "manrope";
+    font-weight: 600 !important;
+    line-height: 20px !important;
+    width: 60%;
+    font-size: 18px !important;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #4E2979;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    justify-content: center !important;
+    border-radius: 10px;
+  
+  background: linear-gradient(
+    to bottom,
+    rgb(87 49 130),
+    rgb(72 41 93)
+  );
+  color: white;
+  border-radius: 10px;
+
+}
+
 .img-sec {
   margin-right: 10px;
   height: 60px;
@@ -354,14 +383,31 @@ h4 {
   background: white !important;
 }
 
-.elementor-25 .elementor-element.elementor-element-12ec0ac .elementor-nav-menu--main .elementor-item.elementor-item-active {
+.elementor-25
+  .elementor-element.elementor-element-12ec0ac
+  .elementor-nav-menu--main
+  .elementor-item.elementor-item-active {
   background: linear-gradient(to bottom, rgb(87 49 130), rgb(72 41 93));
-    color: white;
-    border-radius: 10px;
+  color: white;
+  border-radius: 10px;
 }
-
 
 .elementor-element-8dfbb40 {
   margin-bottom: 0px !important;
 }
 /* breacrum end    */
+
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+select,
+textarea,.form-select {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  padding: 0.7rem 0.75rem !important;
+  border: 1px solid #ced4da !important;
+}
