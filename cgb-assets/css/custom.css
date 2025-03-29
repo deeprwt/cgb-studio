@@ -411,3 +411,18 @@ textarea,.form-select {
   padding: 0.7rem 0.75rem !important;
   border: 1px solid #ced4da !important;
 }
+
+
+.elementor-43 .elementor-element.elementor-element-2e93dbb .ue_menu div div ul li a {
+  font-size: 24px !important;
+  line-height: 35px;
+}
+
+.elementor-43 .elementor-element.elementor-element-2e93dbb .ue_menu div div ul ul li a {
+  font-size: 18px !important;
+}
+
+.elementor-10 .elementor-element.elementor-element-930af8a > .elementor-container{
+  height: auto !important;
+  min-height: fit-content;
+}
