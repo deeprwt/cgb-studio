@@ -764,7 +764,7 @@ a:where(:not(.wp-element-button)) {
     #custom-stroke-svg
     .custom-rect-svg-path {
     stroke: #733895 !important;
-    fill: transparent !important;
+    fill: black !important;
   }
   .menu-item-link:hover .menu-item-arrow svg path {
     stroke: var(--e-global-color-text) !important;

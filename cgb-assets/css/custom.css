@@ -364,11 +364,13 @@ h4 {
   background-image: url("/wp-content/uploads/cgb-studios/icon/down.gif") !important;
 }
 
-.sticky-p {
-  position: sticky;
-  top: 0px;
-  z-index: 10000000;
-  box-shadow: 0 0 10px 3px rgb(0 0 0 / 11%);
+@media (min-width: 768px){
+  .sticky-p {
+    position: sticky;
+    top: 0;
+    z-index: 99999999999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .elementor-25

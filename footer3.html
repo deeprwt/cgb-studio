@@ -14,7 +14,19 @@
     <div class="col-md-6">
       <div class="card shadow-lg border-0 p-4">
         <h4 class="text-center mb-4">Contact Us</h4>
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <!-- Replace with your Access Key -->
+          <input
+            type="hidden"
+            name="access_key"
+            value="b153dd49-d1e5-42a2-b0b0-6093839ad313"
+          />
+          <!-- ✅ Correct. Full URL with https:// -->
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://cgb-studio.vercel.app/thank-you/"
+          />
           <div class="mb-3">
             <label class="form-label">Full Name</label>
             <input
@@ -95,9 +107,7 @@
             <a href="/services/app-development/">Mobile App Development</a>
           </li>
           <li>
-            <a href="/services/pay-per-click/"
-              >Pay Per Click</a
-            >
+            <a href="/services/pay-per-click/">Pay Per Click</a>
           </li>
           <li>
             <a href="/services/social-media-marketing/"
@@ -114,7 +124,7 @@
         <ul class="list-unstyled">
           <li><a href="/about-us/">About Us</a></li>
           <li><a href="/coming-soon/">Our Blog</a></li>
-          <li><a href="/team/">Our Team</a></li>
+          <li><a href="/about-us/">Our Team</a></li>
           <li><a href="/portfolio/">Portfolio</a></li>
           <li><a href="/contact-us/">Contact Us</a></li>
         </ul>
@@ -144,10 +154,16 @@
         </div>
         <!-- Social Media Icons -->
         <div class="social-icons mt-3">
-          <a href="https://www.facebook.com/profile.php?id=61561349992050"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61561349992050"
+            ><i class="fab fa-facebook"></i
+          ></a>
           <a href="https://x.com/CgbStudio"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/company/cgbstudios"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.instagram.com/cgb__studios"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/cgbstudios"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/cgb__studios"
+            ><i class="fab fa-instagram"></i
+          ></a>
         </div>
       </div>
     </div>
@@ -156,7 +172,7 @@
     <div class="footer-bottom mt-4">
       <p>© 2025 CGB Studios. All Rights Reserved.</p>
       <p>
-        <a href="/privacy-policy/">Privacy Policy</a> 
+        <a href="/privacy-policy/">Privacy Policy</a>
         <!-- <a href="#">Terms Of Use</a> -->
       </p>
     </div>
